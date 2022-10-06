@@ -18,4 +18,5 @@ public class validateTest {
     void 이름_5자_이하(){
         assertThat(new Name("5자이하").getName()).contains("5자이하");
     }
+
 }
